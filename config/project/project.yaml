@@ -1,0 +1,42 @@
+dateModified: 1749159827
+email:
+  fromEmail: danlakelake@gmail.com
+  fromName: 'El Rincón de Dan'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: Local
+    settings:
+      path: $ASSETS_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSETS_BASE_URL
+meta:
+  __names__:
+    3bb1c061-e2c2-44fe-995c-3baca834c91d: 'Public Schema' # Public Schema
+    9e2717c6-0dab-4c32-a43c-39b1a8b68727: 'El Rincón de Dan' # El Rincón de Dan
+    9fbc257a-1941-4bdc-8d7a-23ff0cf3f350: Uploads # Uploads
+    49e2db86-d933-4aa1-92e2-e5e4c7ba1727: Título # Título
+    00979d1b-d988-4cbb-89dc-d2b142ada546: Imagen # Imagen
+    b5c99b6b-4722-4d10-9d6f-92aab0e4196d: 'Rich Text' # Rich Text
+    e2af0291-ed14-4643-8f4e-295f18d56699: 'El Rincón de Dan' # El Rincón de Dan
+    f373f60d-579f-4085-b79c-5554a08bb76e: Simple # Simple
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: 'El Rincón de Dan'
+  retryDuration: null
+  schemaVersion: 5.7.0.3
+  timeZone: America/Mexico_City
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

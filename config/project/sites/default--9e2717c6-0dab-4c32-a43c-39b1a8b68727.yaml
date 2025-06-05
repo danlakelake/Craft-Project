@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'El Rincón de Dan'
+primary: true
+siteGroup: e2af0291-ed14-4643-8f4e-295f18d56699 # El Rincón de Dan
+sortOrder: 1

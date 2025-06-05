@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: titulo
+instructions: null
+name: Título
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Campo para títulos'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

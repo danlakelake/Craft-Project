@@ -1,0 +1,26 @@
+# Variables de entorno
+/.env
+
+# IDEs y sistemas operativos
+/.idea
+.DS_Store
+
+# Dependencias PHP
+/vendor/
+
+# Dependencias Node.js (npm)
+node_modules/
+
+# Archivos y carpetas generados por Craft CMS
+/web/cpresources/
+/web/assets/
+/storage/runtime/
+/storage/logs/
+/storage/backups/
+/storage/temp/
+
+# Logs
+*.log
+
+# No ignoramos package-lock.json para controlar versiones de dependencias npm
+# package-lock.json
