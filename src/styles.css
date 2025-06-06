@@ -1,3 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*  
+  Importa todo el framework Tailwind CSS usando la versión 4.1  
+  Esto incluye: las bases, componentes y utilidades en un solo import,  
+  reemplazando las directivas @tailwind base, components y utilities que ya no están disponibles.  
+  Más info: https://tailwindcss.com/docs/installation  
+*/
+@import "tailwindcss";
